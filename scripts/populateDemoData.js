@@ -18,7 +18,7 @@ const R = 50 * 1000;
 
 let image;
 let font;
-const fileNameGeovation = 'geovation.jpg';
+const fileNameTestImage = 'tree.jpg';
 let bucket;
 let db;
 
@@ -56,7 +56,7 @@ async function run(num) {
   bucket = admin.storage().bucket();
   db = admin.firestore();
 
-  image = await Jimp.read(fileNameGeovation);
+  image = await Jimp.read(fileNameTestImage);
   font = await Jimp.loadFont(Jimp.FONT_SANS_128_BLACK);
 
   for (let i=0; i< num; i++) {
