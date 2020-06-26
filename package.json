@@ -1,6 +1,6 @@
 {
-  "name": "geovation-photos",
-  "title": "Geovation Photos",
+  "name": "earthscope-photos",
+  "title": "Earthscope Photos",
   "version": "0.4.0",
   "description": "Simple Reactjs PWA that allows you to upload photos into a map.",
   "main": "index.js",
@@ -26,7 +26,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Geovation/photos.git"
+    "url": "https://github.com/samsammurphy/photos.git"
   },
   "author": "Geovation, Ordnance Survey",
   "license": "MIT",
