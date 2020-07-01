@@ -1,18 +1,18 @@
 {
   "projects": {
-    "default": "photos-demo-d4b14"
+    "default": "earthscope-photos"
   },
   "targets": {
-    "photos-demo-d4b14": {
+    "earthscope-photos": {
       "hosting": {
         "app": [
-          "photos-demo-d4b14"
+          "earthscope-photos"
         ],
         "api": [
-          "photos-demo-d4b14-api"
+          "earthscope-photos-api"
         ],
         "md": [
-          "photos-demo-d4b14-md"
+          "earthscope-photos-md"
         ]
       }
     }
