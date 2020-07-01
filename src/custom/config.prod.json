@@ -1,15 +1,15 @@
 {
   "FIREBASE": {
-    "apiKey": "AIzaSyBkuZPVStg_zRfUaxLJ-mP4xxdFv8GzdZw",
-    "authDomain": "photos-demo-d4b14.firebaseapp.com",
-    "databaseURL": "https://photos-demo-d4b14.firebaseio.com",
-    "projectId": "photos-demo-d4b14",
-    "storageBucket": "photos-demo-d4b14.appspot.com",
-    "messagingSenderId": "639308065605",
-    "appId": "1:639308065605:web:46ce26dd8eb235d9",
-    "measurementId": "G-DGE7JVNP95",
-    "apiURL": "https://us-central1-photos-demo-d4b14.cloudfunctions.net/api",
-    "publicVapidKey": "BPOqGqlL2lZleeHuRPcr2qzETOgNqWbLj388wEw-Wd0xPe2nbxO29buV4tuWkm5ioFWCm99X4GDb7fDZ_mUv4E0"
+    "apiKey": "AIzaSyDdyK4q0snH18rg394PSiUwbQ0YKS3s17w",
+    "authDomain": "earthscope-photos.firebaseapp.com",
+    "databaseURL": "https://earthscope-photos.firebaseio.com",
+    "projectId": "earthscope-photos",
+    "storageBucket": "earthscope-photos.appspot.com",
+    "messagingSenderId": "844942166735",
+    "appId": "1:844942166735:web:6eccdd204935f05dba45ba",
+    "measurementId": "G-BCXNK34F6W",
+    "apiURL": "https://us-central1-earthscope-photos.cloudfunctions.net/api",
+    "publicVapidKey": "BIRyizkcKMkgRz9SXLyfHV21Wv3v-9aWaYnFpB6WoisCzekw37RZ_uU-LooONzJoUcerwY6yHBMFZH9s0dRdhTc"
   },
   "metadata": {
     "metadataServerUrl": "https://photos-demo-d4b14-md.web.app",

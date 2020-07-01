@@ -134,7 +134,7 @@ export default {
   },
   ZOOM: 6,
   ZOOM_FLYTO: 15,
-  CENTER: [148.48479462984665,-33.00426742350881],
+  CENTER: [148.48479462984665, -33.00426742350881],
   PHOTO_FIELDS: {
     description: {
       component: TitleTextField,
