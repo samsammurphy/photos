@@ -132,9 +132,9 @@ export default {
     description: (s) => s,
     notes: (s) => s,
   },
-  ZOOM: 7,
+  ZOOM: 6,
   ZOOM_FLYTO: 15,
-  CENTER: [151.21172917828858, -33.858137172191846],
+  CENTER: [148.48479462984665,  -33.00426742350881],
   PHOTO_FIELDS: {
     description: {
       component: TitleTextField,
