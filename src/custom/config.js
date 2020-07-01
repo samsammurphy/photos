@@ -124,26 +124,26 @@ export default {
     spacing: 10,
   },
   MAP_SOURCE:
-    "https://s3-eu-west-1.amazonaws.com/tiles.os.uk/styles/open-zoomstack-outdoor/style.json",
+  'mapbox://styles/mapbox/outdoors-v9',
   MAP_ATTRIBUTION:
-    "Contains OS data &copy; Crown copyright and database rights 2018",
+    "Open Street Map & Mapbox",
   MAPBOX_TOKEN:
-    "pk.eyJ1Ijoic2ViYXN0aWFub3ZpZGVnZW92YXRpb251ayIsImEiOiJjanA4ZWwwbTkxdDNxM2twZTgyMGdqOXB5In0.MrWFt3rABCo7n7MBbVRaNw",
+    "pk.eyJ1Ijoic2Ftc2FtbXVycGh5IiwiYSI6ImNqN2hkdmd0NDFoNGoyd28ycXNha2gwNngifQ.3m5UZyo8_nhxg-s2-tHe8Q",
   PHOTO_ZOOMED_FIELDS: {
     updated: (s) => new Date(s).toDateString(),
     description: (s) => s,
     notes: (s) => s,
   },
-  ZOOM: 5,
+  ZOOM: 7,
   ZOOM_FLYTO: 15,
-  CENTER: [-2, 55],
+  CENTER: [151.21172917828858,-33.858137172191846],  
   PHOTO_FIELDS: {
     description: {
       component: TitleTextField,
       name: "description",
       title: "Description",
       type: enums.TYPES.string,
-      placeholder: "eg. whatever",
+      placeholder: "this is a placeholder",
       regexValidation: "^([ ]*\\w+[ ]*)+$",
     },
     number: {
