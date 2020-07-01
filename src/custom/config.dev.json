@@ -12,14 +12,14 @@
     "publicVapidKey": "BIRyizkcKMkgRz9SXLyfHV21Wv3v-9aWaYnFpB6WoisCzekw37RZ_uU-LooONzJoUcerwY6yHBMFZH9s0dRdhTc"
   },
   "metadata": {
-    "metadataServerUrl": "https://photos-demo-d4b14-md.web.app",
-    "serverUrl": "https://photos-demo-d4b14.web.app",
-    "twSite": "@Geovation",
-    "twCreator": "@Geovation",
-    "twDomain": "www.geovation.co.uk",
-    "_twDescriptionField": "description",
-    "twDescription": "Nice one",
-    "twTitle": "Check This Photo"
+    "metadataServerUrl": "https://earthscope-photos-md.web.app",
+    "serverUrl": "https://earthscope-photos.web.app",
+    "twSite": "@earthscope_io",
+    "twCreator": "@earthscope_io",
+    "twDomain": "www.earthscope.io",
+    "_twDescriptionField": "Description field",
+    "twDescription": "Description",
+    "twTitle": "Title"
   },
   "env": "dev"
 }
