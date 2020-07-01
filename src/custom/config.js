@@ -207,9 +207,7 @@ export default {
   USER: {
     SIGN_IN_OPTIONS: [
       firebase.auth.EmailAuthProvider.PROVIDER_ID,
-      firebase.auth.FacebookAuthProvider.PROVIDER_ID,
-      firebase.auth.GoogleAuthProvider.PROVIDER_ID,
-      firebase.auth.PhoneAuthProvider.PROVIDER_ID,
+      firebase.auth.GoogleAuthProvider.PROVIDER_ID
     ],
     ENABLE_GRAVATAR_PROFILES: true, //To update user-profile from Gravatar, value: true or false.
   },
