@@ -123,10 +123,8 @@ export default {
     },
     spacing: 10,
   },
-  MAP_SOURCE:
-  'mapbox://styles/mapbox/outdoors-v9',
-  MAP_ATTRIBUTION:
-    "Open Street Map & Mapbox",
+  MAP_SOURCE: "mapbox://styles/mapbox/outdoors-v9",
+  MAP_ATTRIBUTION: "Open Street Map & Mapbox",
   MAPBOX_TOKEN:
     "pk.eyJ1Ijoic2Ftc2FtbXVycGh5IiwiYSI6ImNqN2hkdmd0NDFoNGoyd28ycXNha2gwNngifQ.3m5UZyo8_nhxg-s2-tHe8Q",
   PHOTO_ZOOMED_FIELDS: {
@@ -136,7 +134,7 @@ export default {
   },
   ZOOM: 7,
   ZOOM_FLYTO: 15,
-  CENTER: [151.21172917828858,-33.858137172191846],  
+  CENTER: [151.21172917828858, -33.858137172191846],
   PHOTO_FIELDS: {
     description: {
       component: TitleTextField,
@@ -207,7 +205,7 @@ export default {
   USER: {
     SIGN_IN_OPTIONS: [
       firebase.auth.EmailAuthProvider.PROVIDER_ID,
-      firebase.auth.GoogleAuthProvider.PROVIDER_ID
+      firebase.auth.GoogleAuthProvider.PROVIDER_ID,
     ],
     ENABLE_GRAVATAR_PROFILES: true, //To update user-profile from Gravatar, value: true or false.
   },
