@@ -1,6 +1,5 @@
 import _ from "lodash";
 
-
 import enums from "../../types/enums";
 
 import TitleTextField from "../../components/PhotoPage/TitleTextField";
@@ -36,8 +35,7 @@ export const PHOTO_FIELDS = {
     sanitize: (value) => {
       _.forEach(value, (category) => {
         category.brand =
-          category.brand.replace &&
-          category.brand.replace(/\s+/g, " ").trim();
+          category.brand.replace && category.brand.replace(/\s+/g, " ").trim();
       });
       return value;
     },
@@ -62,4 +60,4 @@ export const PHOTO_FIELDS = {
       },
     },
   },
-}
+};

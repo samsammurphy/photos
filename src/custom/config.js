@@ -4,13 +4,13 @@ import "firebase/auth";
 import styles from "./config.scss";
 
 import { CUSTOM_STRING } from "./configurations/strings.js";
-import { PAGES } from './configurations/pages.js'
-import { PHOTO_FIELDS } from './configurations/photo_fields.js'
+import { PAGES } from "./configurations/pages.js";
+import { PHOTO_FIELDS } from "./configurations/photo_fields.js";
 
 const ENV_CONFIG =
   process.env.NODE_ENV === "production"
-    ? require("./config.prod.json")
-    : require("./config.dev.json");
+    ? require("./configurations/config.prod.json")
+    : require("./configurations/config.dev.json");
 
 function getStats(geojson, dbStats) {
   return (dbStats && dbStats.published) || 0;
